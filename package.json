@@ -1,5 +1,14 @@
 {
   "name": "preconst",
   "version": "0.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "format": "oxfmt .",
+    "format:check": "oxlint . --check"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.58.0",
+    "oxlint": "^1.73.0",
+    "typescript": "^7.0.2"
+  }
 }
