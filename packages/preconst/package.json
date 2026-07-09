@@ -1,0 +1,20 @@
+{
+  "name": "preconst",
+  "version": "0.0.0",
+  "license": "MIT",
+  "bin": {
+    "preconst": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "!dist/**.d.ts"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./dist/cli.js",
+    "./package.json": "./package.json"
+  },
+  "preconst": {
+    "exports": "./src/cli.ts"
+  }
+}

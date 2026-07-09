@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["import"],
+  "jsPlugins": ["./packages/eslint-plugin/src/index.ts"],
+  "rules": {
+    "preconst/node-esm-imports": "error"
+  }
+}

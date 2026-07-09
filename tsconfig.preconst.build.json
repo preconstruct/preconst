@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/eslint-plugin/tsconfig.preconst.pkg.json"
+    },
+    {
+      "path": "./packages/preconst/tsconfig.preconst.pkg.json"
+    }
+  ]
+}

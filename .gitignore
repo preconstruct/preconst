@@ -1,2 +1,4 @@
 node_modules
 ignored
+dist
+*.tsbuildinfo
